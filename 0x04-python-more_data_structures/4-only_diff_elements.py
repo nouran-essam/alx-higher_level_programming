@@ -1,6 +1,8 @@
-#!/usr/bin/env python3
-no_c = __import__('5-no_c').no_c
+#!/usr/bin/python3
+"""
+https://www.programiz.com/python-programming/set
+"""
 
-print(no_c("Holberton School"))
-print(no_c("Chicago"))
-print(no_c("C is fun!"))
+
+def only_diff_elements(set_1, set_2):
+    return (set_1 ^ set_2)
